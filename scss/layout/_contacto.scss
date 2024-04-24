@@ -1,0 +1,42 @@
+main{
+    section{
+        .fomulario{
+            padding: 20px;
+            margin-bottom: 10px;
+            display: flex;
+        
+            .botonformulario{
+                padding: 5px;
+                border-radius: 5px;
+                background-color: rgba(90, 88, 88, 0.544);
+                color: $color-blanco;
+                text-decoration: none;
+                margin-top: 70px;
+                transition: 1s;
+                
+                &:hover{
+                    background-color: black;
+                    margin: 15px;
+                    transform: rotate(360deg);
+                }
+            }
+        
+            form input{
+                background-color: rgb(193, 189, 189);
+                border: 0px;
+                border-radius: 1 px;
+                margin-top: 10px;
+                
+                &:focus{
+                    background-color: $color-blanco;
+                }
+            }
+        }
+        
+        .rating{
+            margin-bottom: 5px;
+            margin-top: 20px;
+            padding: 20px;
+        }
+    }
+}

@@ -1,219 +1,219 @@
 * {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px;
-  }
-  
-  h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+
+h2 {
+  color: rgb(92, 94, 97);
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+}
+
+h3 {
+  color: rgb(70, 65, 65);
+  font-weight: 50px;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5 {
+  color: rgb(70, 65, 65);
+  font-weight: 30px;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-tres {
+  width: 50 px;
+  height: 50 px;
+}
+
+body header {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgb(70, 68, 68);
+  padding: 20px;
+  align-items: flex-end;
+}
+body header .barranav .minav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body header .barranav .minav-bar .img-logo {
+  width: 20 px;
+  height: 20 px;
+  align-items: start;
+}
+body header .barranav .barranavdos .mislinks {
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+body header .barranav .barranavdos .mislinks .texto-negro {
+  color: rgb(34, 34, 34) !important;
+}
+
+@keyframes cambiar-color {
+  0% {
     color: rgb(92, 94, 97);
-    font-size: 70px;
-    text-align: center;
-    font-weight: bold;
-    justify-content: center;
   }
-  
-  h3 {
-    color: rgb(70, 65, 65);
-    font-weight: 50px;
-    font-style: italic;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  50% {
+    color: rgb(43, 44, 45);
   }
-  
-  h5 {
-    color: rgb(70, 65, 65);
-    font-weight: 30px;
-    font-style: italic;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .img-tres {
-    width: 50 px;
-    height: 50 px;
-  }
-  
-  body header {
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 1px solid rgb(70, 68, 68);
-    padding: 20px;
-    align-items: flex-end;
-  }
-  body header .barranav .minav-bar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  body header .barranav .minav-bar .img-logo {
-    width: 20 px;
-    height: 20 px;
-    align-items: start;
-  }
-  body header .barranav .barranavdos .mislinks {
-    text-decoration: none;
-    margin: 10px;
-    font-weight: bold;
-  }
-  body header .barranav .barranavdos .mislinks .texto-negro {
-    color: rgb(34, 34, 34) !important;
-  }
-  
-  @keyframes cambiar-color {
-    0% {
-      color: rgb(92, 94, 97);
-    }
-    50% {
-      color: rgb(43, 44, 45);
-    }
-    100% {
-      color: black;
-    }
-  }
-  body main .panoramica {
-    width: 90%;
-    height: 270px;
-    padding: 20px;
-    border-radius: 15px;
-  }
-  body main .panoramica:hover {
-    box-shadow: 10px 10px 18px 0px rgba(35, 35, 35, 0.75);
-    -webkit-box-shadow: 10px 10px 18px 0px rgba(46, 45, 45, 0.947);
-    -moz-box-shadow: 10px 10px 18px 0px rgba(26, 25, 25, 0.75);
-  }
-  body main .animacion {
-    animation-name: cambiar-color;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-duration: 2s;
-  }
-  body main .elnombre {
-    font-size: 1.5rem;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  body main .mistarjetas .card {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: center;
-    box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
-  }
-  body main .mistarjetas .card img .card-img-top, body main .mistarjetas .card img .fotopaseos {
-    height: 270px;
-    width: 270px;
-  }
-  body main .mistarjetas .card .card-body {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(181, 180, 180, 0.8337928922) 24%);
-  }
-  body main .mistarjetas .card .card-body .card-title {
-    font-size: large;
-    font-style: italic;
-    font-weight: bold;
-  }
-  body main .mistarjetas .card .card-body .card-text {
+  100% {
     color: black;
   }
-  body main .mistarjetas .card .card-body .Links-vermas {
-    text-decoration: none;
-  }
-  
-  p .parrafos-cards {
-    text-align: center;
-  }
-  
-  body main .historia {
-    font-size: 1.7rem;
-    font-style: italic;
-    justify-content: center;
-  }
-  body main .textocards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  body main .textocards .cardsinfo {
-    display: flex;
-    justify-content: space-around;
-    border: 2px;
-    padding: 10 px;
-  }
-  body main .textocards .cardsinfo .picuno {
-    width: 50px;
-    height: 50px;
-  }
-  body main .textocards .cardsinfo .info-picdos {
-    width: 30px;
-    height: 30px;
-  }
-  body main .textocards .cardsinfo .info-pictres {
-    width: 20px;
-    height: 20px;
-  }
-  body main .textocards .cardsinfo .texto-fotos {
-    color: white;
-    background-color: grey;
-    font-weight: bolder;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  main section .fomulario {
-    padding: 20px;
-    margin-bottom: 10px;
-    display: flex;
-  }
-  main section .fomulario .botonformulario {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: rgba(90, 88, 88, 0.544);
-    color: white;
-    text-decoration: none;
-    margin-top: 70px;
-    transition: 1s;
-  }
-  main section .fomulario .botonformulario:hover {
-    background-color: black;
-    margin: 15px;
-    transform: rotate(360deg);
-  }
-  main section .fomulario form input {
-    background-color: rgb(193, 189, 189);
-    border: 0px;
-    border-radius: 1 px;
-    margin-top: 10px;
-  }
-  main section .fomulario form input:focus {
-    background-color: white;
-  }
-  main section .rating {
-    margin-bottom: 5px;
-    margin-top: 20px;
-    padding: 20px;
-  }
-  
-  body footer {
-    display: flex;
-    border-top: 1px solid black;
-    justify-content: space-between;
-  }
-  body footer img {
-    width: 45px;
-    height: 45px;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-  }
-  body footer img .img-footer {
-    align-items: left;
-    justify-content: left;
-    width: 100px;
-    height: 100px;
-  }
-  body footer .redes {
-    width: 45px;
-    height: 45px;
-  }
-  body footer p {
-    justify-content: center;
-    align-items: center;
-  }/*# sourceMappingURL=style.css.map */
+}
+body main .panoramica {
+  width: 90%;
+  height: 270px;
+  padding: 20px;
+  border-radius: 15px;
+}
+body main .panoramica:hover {
+  box-shadow: 10px 10px 18px 0px rgba(35, 35, 35, 0.75);
+  -webkit-box-shadow: 10px 10px 18px 0px rgba(46, 45, 45, 0.947);
+  -moz-box-shadow: 10px 10px 18px 0px rgba(26, 25, 25, 0.75);
+}
+body main .animacion {
+  animation-name: cambiar-color;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+}
+body main .elnombre {
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body main .mistarjetas .card {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+}
+body main .mistarjetas .card img .card-img-top, body main .mistarjetas .card img .fotopaseos {
+  height: 270px;
+  width: 270px;
+}
+body main .mistarjetas .card .card-body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(181, 180, 180, 0.8337928922) 24%);
+}
+body main .mistarjetas .card .card-body .card-title {
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+body main .mistarjetas .card .card-body .card-text {
+  color: black;
+}
+body main .mistarjetas .card .card-body .Links-vermas {
+  text-decoration: none;
+}
+
+p .parrafos-cards {
+  text-align: center;
+}
+
+body main .historia {
+  font-size: 1.7rem;
+  font-style: italic;
+  justify-content: center;
+}
+body main .textocards {
+  display: flex;
+  flex-wrap: wrap;
+}
+body main .textocards .cardsinfo {
+  display: flex;
+  justify-content: space-around;
+  border: 2px;
+  padding: 10 px;
+}
+body main .textocards .cardsinfo .picuno {
+  width: 50px;
+  height: 50px;
+}
+body main .textocards .cardsinfo .info-picdos {
+  width: 30px;
+  height: 30px;
+}
+body main .textocards .cardsinfo .info-pictres {
+  width: 20px;
+  height: 20px;
+}
+body main .textocards .cardsinfo .texto-fotos {
+  color: white;
+  background-color: grey;
+  font-weight: bolder;
+  text-align: center;
+  padding: 20px;
+}
+
+main section .fomulario {
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+}
+main section .fomulario .botonformulario {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(90, 88, 88, 0.544);
+  color: white;
+  text-decoration: none;
+  margin-top: 70px;
+  transition: 1s;
+}
+main section .fomulario .botonformulario:hover {
+  background-color: black;
+  margin: 15px;
+  transform: rotate(360deg);
+}
+main section .fomulario form input {
+  background-color: rgb(193, 189, 189);
+  border: 0px;
+  border-radius: 1 px;
+  margin-top: 10px;
+}
+main section .fomulario form input:focus {
+  background-color: white;
+}
+main section .rating {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+body footer {
+  display: flex;
+  border-top: 1px solid black;
+  justify-content: space-between;
+}
+body footer img {
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+body footer img .img-footer {
+  align-items: left;
+  justify-content: left;
+  width: 100px;
+  height: 100px;
+}
+body footer .redes {
+  width: 45px;
+  height: 45px;
+}
+body footer p {
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

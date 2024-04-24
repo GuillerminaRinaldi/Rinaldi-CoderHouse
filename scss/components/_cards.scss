@@ -1,0 +1,55 @@
+body{
+    main{
+        .mistarjetas{
+            .card{
+                display: flex;
+                flex-wrap: wrap;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                justify-content: center;
+
+                box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);    
+                -webkit-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+                
+                img{
+                    .card-img-top{
+                        height: 270px;
+                        width: 270px;
+                    }
+                    .fotopaseos{
+                        @extend .card-img-top;
+                    }
+                }
+
+                .card-body{
+                    background: rgb(255,255,255);
+                    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(181,180,180,0.8337928921568627) 24%);
+
+                    .card-title{
+                        font-size: large;
+                        font-style: italic;
+                        font-weight: bold;
+                    
+                    }
+                
+                    .card-text{
+                        color: black;
+                    }
+                
+                    .Links-vermas{
+                        text-decoration: none;
+                    }
+            }
+            }
+
+        }
+    }
+}
+p{
+    .parrafos-cards{
+        text-align: center;
+    }
+}
+
+
+

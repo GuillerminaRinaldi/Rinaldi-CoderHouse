@@ -1,0 +1,35 @@
+body{
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgb(70, 68, 68);
+        padding: 20px;
+        align-items: flex-end;
+
+        .barranav{
+            .minav-bar{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                
+                .img-logo{
+                    width: 20 px;
+                    height: 20 px;
+                    align-items: start;
+                        }
+                    }
+
+            .barranavdos{
+                .mislinks{
+                    text-decoration: none;
+                    margin: 10px;
+                    font-weight: bold;
+                    
+                        .texto-negro{
+                            color: rgb(34, 34, 34) !important;
+                            }
+                        }
+                    }
+            }
+    }
+}
