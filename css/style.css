@@ -48,6 +48,7 @@ body header .barranav .minav-bar .img-logo {
   align-items: start;
 }
 body header .barranav .barranavdos .mislinks {
+  display: flex;
   text-decoration: none;
   margin: 10px;
   font-weight: bold;
