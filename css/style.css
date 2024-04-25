@@ -163,20 +163,6 @@ main section .fomulario {
   margin-bottom: 10px;
   display: flex;
 }
-main section .fomulario .botonformulario {
-  padding: 5px;
-  border-radius: 5px;
-  background-color: rgba(90, 88, 88, 0.544);
-  color: white;
-  text-decoration: none;
-  margin-top: 70px;
-  transition: 1s;
-}
-main section .fomulario .botonformulario:hover {
-  background-color: black;
-  margin: 15px;
-  transform: rotate(360deg);
-}
 main section .fomulario form input {
   background-color: rgb(193, 189, 189);
   border: 0px;
@@ -185,6 +171,20 @@ main section .fomulario form input {
 }
 main section .fomulario form input:focus {
   background-color: white;
+}
+main section .botonformulario {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(90, 88, 88, 0.544);
+  color: white;
+  text-decoration: none;
+  margin-top: 70px;
+  transition: 1s;
+}
+main section .botonformulario:hover {
+  background-color: black;
+  margin: 15px;
+  transform: rotate(360deg);
 }
 main section .rating {
   margin-bottom: 5px;
