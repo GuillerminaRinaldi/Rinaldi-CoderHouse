@@ -197,18 +197,11 @@ body footer {
   border-top: 1px solid black;
   justify-content: space-between;
 }
-body footer img {
-  width: 45px;
-  height: 45px;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-body footer img .img-footer {
+body footer .img-footer {
   align-items: left;
   justify-content: left;
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
 }
 body footer .redes {
   width: 45px;

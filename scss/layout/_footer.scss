@@ -4,20 +4,13 @@ body{
         border-top: 1px solid black;
         justify-content: space-between;
     
-        img{
-            width: 45px;
-            height: 45px;
-            align-content: center;
-            align-items: center;
-            justify-content: center;
-    
-            .img-footer{
-                align-items: left;
-                justify-content: left;
-                width: 100px;
-                height: 100px;
-            }
+        .img-footer{
+            align-items: left;
+            justify-content: left;
+            width: 40px;
+            height: 40px;
         }
+
         .redes{
             width: 45px;
             height: 45px;
