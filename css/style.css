@@ -157,21 +157,21 @@ body main .textocards .cardsinfo .texto-fotos {
   padding: 20px;
 }
 
-main section .fomulario {
+main .fomulario {
   padding: 20px;
   margin-bottom: 10px;
   display: flex;
 }
-main section .fomulario form input {
+main .fomulario form input {
   background-color: rgb(193, 189, 189);
   border: 0px;
   border-radius: 1 px;
   margin-top: 10px;
 }
-main section .fomulario form input:focus {
+main .fomulario form input:focus {
   background-color: white;
 }
-main section .botonformulario {
+main .botonformulario {
   padding: 5px;
   border-radius: 5px;
   background-color: rgba(90, 88, 88, 0.544);
@@ -180,12 +180,12 @@ main section .botonformulario {
   margin-top: 70px;
   transition: 1s;
 }
-main section .botonformulario:hover {
+main .botonformulario:hover {
   background-color: black;
   margin: 15px;
   transform: rotate(360deg);
 }
-main section .rating {
+main .rating {
   margin-bottom: 5px;
   margin-top: 20px;
   padding: 20px;
