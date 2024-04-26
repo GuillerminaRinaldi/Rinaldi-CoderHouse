@@ -66,9 +66,9 @@ body header .mislinks {
   }
 }
 body main .panoramica {
-  width: 90%;
-  height: 270px;
-  padding: 20px;
+  width: 95%;
+  height: 290px;
+  padding: 15px;
   border-radius: 15px;
 }
 body main .panoramica:hover {
@@ -206,8 +206,8 @@ body footer {
 body footer .imgfooter {
   align-items: left;
   justify-content: left;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
 }
 body footer .redes {
   width: 45px;
