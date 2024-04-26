@@ -43,11 +43,11 @@ body header .minav-bar {
   justify-content: space-between;
 }
 body header .minav-bar .imglogo {
-  width: 30 px;
-  height: 30 px;
+  width: 10 px;
+  height: 10 px;
   align-items: start;
 }
-body header .barranavdos .mislinks {
+body header .mislinks {
   display: flex;
   text-decoration: none;
   margin: 10px;
