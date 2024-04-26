@@ -131,29 +131,17 @@ body main .historia {
   font-style: italic;
   justify-content: center;
 }
-body main .textocards {
-  display: flex;
-  flex-wrap: wrap;
-}
-body main .textocards .cardsinfo {
+body main .cardsinfo {
   display: flex;
   justify-content: space-around;
   border: 2px;
   padding: 10 px;
 }
-body main .textocards .cardsinfo .picuno {
-  width: 50px;
-  height: 50px;
-}
-body main .textocards .cardsinfo .info-picdos {
-  width: 30px;
-  height: 30px;
-}
-body main .textocards .cardsinfo .info-pictres {
+body main .cardsinfo .infopics {
   width: 20px;
   height: 20px;
 }
-body main .textocards .cardsinfo .texto-fotos {
+body main .cardsinfo .texto-fotos {
   color: white;
   background-color: grey;
   font-weight: bolder;
