@@ -37,17 +37,17 @@ body header {
   padding: 20px;
   align-items: flex-end;
 }
-body header .barranav .minav-bar {
+body header .minav-bar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-body header .barranav .minav-bar .img-logo {
-  width: 20 px;
-  height: 20 px;
+body header .minav-bar .imglogo {
+  width: 30 px;
+  height: 30 px;
   align-items: start;
 }
-body header .barranav .barranavdos .mislinks {
+body header .barranavdos .mislinks {
   display: flex;
   text-decoration: none;
   margin: 10px;
