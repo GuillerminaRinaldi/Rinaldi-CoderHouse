@@ -143,7 +143,7 @@ body main .cardsinfo .infopics {
 }
 body main .cardsinfo .texto-fotos {
   color: white;
-  background-color: grey;
+  background-color: black;
   font-weight: bolder;
   text-align: center;
   padding: 20px;
