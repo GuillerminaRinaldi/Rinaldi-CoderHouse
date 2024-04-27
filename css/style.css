@@ -138,15 +138,16 @@ body main .cardsinfo {
   padding: 10 px;
 }
 body main .cardsinfo .infopics {
-  width: 130px;
-  height: 130px;
+  width: 170px;
+  height: 170px;
+  align-items: center;
 }
 body main .cardsinfo .texto-fotos {
   color: white;
   background-color: rgb(35, 35, 35);
   font-weight: bolder;
   text-align: center;
-  padding: 20px;
+  padding: 20px, 10px, 5px, 25px;
 }
 
 main {
@@ -195,8 +196,8 @@ body footer {
 body footer .imgfooter {
   align-items: left;
   justify-content: left;
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
 }
 body footer .redes {
   width: 45px;
