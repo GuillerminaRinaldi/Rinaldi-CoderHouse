@@ -143,7 +143,7 @@ body main .cardsinfo .infopics {
 }
 body main .cardsinfo .texto-fotos {
   color: white;
-  background-color: black;
+  background-color: rgb(35, 35, 35);
   font-weight: bolder;
   text-align: center;
   padding: 20px;
@@ -195,8 +195,8 @@ body footer {
 body footer .imgfooter {
   align-items: left;
   justify-content: left;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 body footer .redes {
   width: 45px;
