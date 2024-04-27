@@ -47,7 +47,7 @@ body header .imglogo {
   height: 10 px;
   align-items: start;
 }
-body .mislinks {
+body header .mislinks {
   display: flex;
   text-decoration: none;
   margin: 10px;
@@ -141,13 +141,15 @@ body main .cardsinfo .infopics {
   width: 170px;
   height: 170px;
   align-items: center;
+  padding: 10px;
 }
 body main .cardsinfo .texto-fotos {
   color: white;
   background-color: rgb(35, 35, 35);
   font-weight: bolder;
   text-align: center;
-  padding: 20px, 10px, 5px, 25px;
+  padding: 20px;
+  border-radius: 15px, 5px, 20px, 10px;
 }
 
 main {
