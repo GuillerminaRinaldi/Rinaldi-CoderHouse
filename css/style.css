@@ -34,7 +34,7 @@ body header {
   display: flex;
   flex-wrap: wrap;
   border-bottom: 1px solid rgb(70, 68, 68);
-  padding: 20px;
+  padding: 10px;
   align-items: flex-end;
 }
 body header .minav-bar {
@@ -42,12 +42,12 @@ body header .minav-bar {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-body header .minav-bar .imglogo {
+body header .imglogo {
   width: 10 px;
   height: 10 px;
   align-items: start;
 }
-body header .mislinks {
+body .mislinks {
   display: flex;
   text-decoration: none;
   margin: 10px;

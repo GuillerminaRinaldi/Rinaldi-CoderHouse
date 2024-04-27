@@ -3,26 +3,26 @@ body{
         display: flex;
         flex-wrap: wrap;
         border-bottom: 1px solid rgb(70, 68, 68);
-        padding: 20px;
+        padding: 10px;
         align-items: flex-end;
 
             .minav-bar{
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
-                
-                .imglogo{
-                    width: 10 px;
-                    height: 10 px;
-                    align-items: start;
-                        }
-                    }
-
-                .mislinks{
-                    display: flex;
-                    text-decoration: none;
-                    margin: 10px;
-                    font-weight: bold;
-                        }
+                justify-content: space-between;            
     }
+
+    .imglogo{
+        width: 10 px;
+        height: 10 px;
+        align-items: start;
+            }
+        }
+
+    .mislinks{
+        display: flex;
+        text-decoration: none;
+        margin: 10px;
+        font-weight: bold;
+            }
 }
