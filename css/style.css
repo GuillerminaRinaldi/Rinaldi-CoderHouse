@@ -143,6 +143,7 @@ body main .cardsinfo .infopics {
   height: 170px;
   align-items: center;
   padding: 10px;
+  flex-wrap: wrap;
 }
 body main .cardsinfo .texto-fotos {
   color: white;
@@ -151,6 +152,7 @@ body main .cardsinfo .texto-fotos {
   text-align: center;
   padding: 20px;
   border-radius: 50% 20%/10% 40%;
+  flex-wrap: wrap;
 }
 
 main {

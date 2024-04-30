@@ -18,6 +18,7 @@ body{
                     height: 170px;
                     align-items: center;
                     padding: 10px;
+                    flex-wrap: wrap;
                 }
 
                 .texto-fotos{
@@ -27,6 +28,7 @@ body{
                     text-align: center;
                     padding: 20px;
                     border-radius: 50% 20% / 10% 40%;
+                    flex-wrap: wrap;
                 }
            }
     }
