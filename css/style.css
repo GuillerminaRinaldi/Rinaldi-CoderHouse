@@ -11,6 +11,10 @@ h2 {
   justify-content: center;
 }
 
+p .parrafos-cards {
+  text-align: center;
+}
+
 h3 {
   color: rgb(70, 65, 65);
   font-weight: 50px;
@@ -122,10 +126,6 @@ body main .mistarjetas .card .card-body .Links-vermas {
   text-decoration: none;
 }
 
-p .parrafos-cards {
-  text-align: center;
-}
-
 body main .historia {
   font-size: 1.7rem;
   font-style: italic;
@@ -136,13 +136,13 @@ body main .cardsinfo {
   flex-wrap: wrap;
   justify-content: space-around;
   border: 2px;
-  padding: 10 px;
+  padding: 5px;
 }
 body main .cardsinfo .infopics {
   width: 170px;
   height: 170px;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   flex-wrap: wrap;
 }
 body main .cardsinfo .texto-fotos {
@@ -150,7 +150,7 @@ body main .cardsinfo .texto-fotos {
   background-color: rgb(35, 35, 35);
   font-weight: bolder;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   border-radius: 50% 20%/10% 40%;
   flex-wrap: wrap;
 }
