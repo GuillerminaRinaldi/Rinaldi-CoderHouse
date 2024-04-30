@@ -133,6 +133,7 @@ body main .historia {
 }
 body main .cardsinfo {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   border: 2px;
   padding: 10 px;
