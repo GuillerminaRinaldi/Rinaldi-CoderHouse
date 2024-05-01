@@ -4,7 +4,7 @@
 }
 
 h2 {
-  color: rgb(92, 94, 97);
+  color: white;
   font-size: 70px;
   text-align: center;
   font-weight: bold;
@@ -132,21 +132,28 @@ body main .historia {
   justify-content: center;
   padding: 30px;
 }
-body main .cardsinfo {
+body main .textocards {
+  animation-name: Aparecer;
+  animation-iteration-count: initial;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+body main .textocards .cardsinfo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   border: 2px;
   padding: 5px;
 }
-body main .cardsinfo .infopics {
+body main .textocards .cardsinfo .infopics {
   width: 170px;
   height: 170px;
   align-items: center;
   padding: 5px;
   flex-wrap: wrap;
 }
-body main .cardsinfo .texto-fotos {
+body main .textocards .cardsinfo .texto-fotos {
   color: white;
   background-color: rgb(35, 35, 35);
   font-weight: bolder;
