@@ -130,6 +130,7 @@ body main .historia {
   font-size: 1.7rem;
   font-style: italic;
   justify-content: center;
+  padding: 30px;
 }
 body main .cardsinfo {
   display: flex;
