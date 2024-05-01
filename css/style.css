@@ -204,6 +204,10 @@ body footer .imgfooter {
   width: 70px;
   height: 70px;
 }
+body footer .derechos {
+  align-items: center;
+  font-weight: bold;
+}
 body footer .redes {
   width: 45px;
   height: 45px;
