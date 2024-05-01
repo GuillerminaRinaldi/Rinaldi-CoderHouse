@@ -157,8 +157,8 @@ body main .cardsinfo .texto-fotos {
 }
 
 main {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(181, 180, 180, 0.6615239846) 57%);
+  background: rgb(245, 88, 9);
+  background: linear-gradient(180deg, rgb(245, 88, 9) 0%, rgb(241, 211, 32) 45%, rgba(46, 91, 124, 0.8520001751) 86%);
 }
 main .fomulario {
   padding: 20px;
